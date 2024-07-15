@@ -1,5 +1,5 @@
 # DTA-GTOmega
-The source code of DTA-GTOmega
+The source code of DTA-GTOmega, contact email: yljiang@stu.suda.edu.cn or 20234027015@stu.suda.edu.cn
 
 # Environment
 
