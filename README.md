@@ -33,7 +33,7 @@ mv model.pt pretrained_model/model.pt
 ```
 
 Then (1)Check omegafold_feature/OmegaFeatureDemo.ipynb, the notebook is friendly to generate features.
-(2)Check the Davis/contact.ipynb for contact map files
+(2)Check the Davis/Davis_contact.ipynb for contact map files, the tag 'Nec' means the cells need to run
 
 Finnaly, mv the features to data
 
