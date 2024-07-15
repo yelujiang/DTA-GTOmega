@@ -3,7 +3,7 @@ The source code of DTA-GTOmega
 
 # Environment
 
-# OmegaFold Source
+# Feature Generation
 
 ```commandline
 git clone https://github.com/HeliXonProtein/OmegaFold
@@ -32,4 +32,13 @@ The weight we use can be downloaded from OmegaFold Source or Our Drive
 mv model.pt pretrained_model/model.pt
 ```
 
-Then Check omegafold_feature/OmegaFeatureDemo.ipynb, the notebook is friendly to generate features.
+Then (1)Check omegafold_feature/OmegaFeatureDemo.ipynb, the notebook is friendly to generate features.
+(2)Check the Davis/contact.ipynb for contact map files
+
+Finnaly, mv the features to data
+
+```commandline
+mkdir ../data/Davis_omega
+cp Davis/omega_2 ../data/Davis_omega -r
+cp Davis/pdb_contact_map ../data/Davis_omega -r
+```
