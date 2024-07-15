@@ -13,6 +13,22 @@ python setup.py install
 
 or our Modified version for feature extraction
 
-```commandline
+use the following commandline to generate the necessary directories
 
+```commandline
+cd omegafold_feature
+mkdir Davis/omega_2
+mkdir Davis/pdbs
+mkdir Davis/pdb_contact_map
+mkdir Davis/cut_seqs
+mkdir pretrained_model
 ```
+
+The weight we use can be downloaded from OmegaFold Source
+- 
+
+```commandline
+mv model.pt pretrained_model/model.pt
+```
+
+Then Check omegafold_feature/OmegaFeatureDemo.ipynb, the notebook is friendly to generate features.
